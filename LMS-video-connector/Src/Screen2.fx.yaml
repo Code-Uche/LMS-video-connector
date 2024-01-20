@@ -1,0 +1,40 @@
+Screen2 As screen:
+
+    Video1 As videoPlayback:
+        AutoStart: =true
+        Media: |-
+            ="https://www.youtube.com/watch?v=czG2HbMRJdM"
+        Width: =487
+        X: =154
+        Y: =222
+        ZIndex: =1
+
+    Button2 As button:
+        Fill: =RGBA(232, 16, 196, 1)
+        HoverFill: =ColorFade(RGBA(232, 16, 196, 100), -20%)
+        OnSelect: =Back()
+        Text: ="Back"
+        X: =154
+        Y: =600
+        ZIndex: =2
+
+    Button3 As button:
+        Fill: =RGBA(232, 16, 196, 1)
+        HoverFill: =ColorFade(RGBA(232, 16, 196, 100), -20%)
+        Text: ="Next"
+        X: =481
+        Y: =600
+        ZIndex: =3
+
+    Label2 As label:
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Semibold
+        Height: =99
+        Size: =25
+        Text: ="Connecting Apps to Data on PowerApps"
+        Tooltip: ="Connecting Apps to Data on PowerApps"
+        Width: =669
+        X: =99
+        Y: =64
+        ZIndex: =4
+

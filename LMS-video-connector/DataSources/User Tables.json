@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr288_usertables",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr288_usertable",
+    "MaxGetRowsCount": 500,
+    "Name": "User Tables",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr288_column5": "Password",
+      "cr288_column6": "Column 6",
+      "cr288_customerid": "Customer ID",
+      "cr288_customername": "Customer Name",
+      "cr288_secretquestion": "Secret Question",
+      "cr288_username": "Username",
+      "cr288_usertable_AsyncOperations": "System Jobs",
+      "cr288_usertable_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr288_usertable_DuplicateBaseRecord": "Duplicate Records (cr288_usertable_DuplicateBaseRecord)",
+      "cr288_usertable_DuplicateMatchingRecord": "Duplicate Records (cr288_usertable_DuplicateMatchingRecord)",
+      "cr288_usertable_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr288_usertable_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr288_usertable_ProcessSession": "Process Sessions",
+      "cr288_usertable_SyncErrors": "Sync Errors",
+      "cr288_usertableid": "User Table",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "User Tables",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "User Tables (Views)",
+    "Name": "_cr288_usertable_views",
+    "RelatedEntityName": "User Tables",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "4184ed7f-8f5a-4679-b28f-a0377e3e4d3c": "User Table Associated View",
+      "436caa60-e0b5-41c4-9fb8-ad4749161fcf": "Active User Tables",
+      "6c45c526-f19a-4e53-a578-f012fa284938": "Inactive User Tables",
+      "c214f3a5-cbcb-4693-928d-48460a5876a2": "User Table Lookup View",
+      "eb64d9fa-12b1-4333-88e8-921d1cfe0cba": "User Table Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (User Tables)",
+    "Name": "cr288_usertable_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "User Tables"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "User Tables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (User Tables)",
+    "Name": "cr288_usertable_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "User Tables"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "User Tables",
+    "Type": "OptionSetInfo"
+  }
+]
